@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="netflix_red">#E50914</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="light_black">#0d0d0d</color>
 </resources>
