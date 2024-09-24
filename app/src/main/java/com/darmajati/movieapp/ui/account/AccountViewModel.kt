@@ -6,8 +6,9 @@ import androidx.lifecycle.ViewModel
 
 class AccountViewModel : ViewModel() {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
+    private val _accountInfo = MutableLiveData<String>().apply {
+        value = "Account Info: Darma" // Boleh diubah untuk Account Infonya.
     }
-    val text: LiveData<String> = _text
+    val accountInfo: LiveData<String> = _accountInfo
+
 }

@@ -12,7 +12,7 @@ class FavoriteViewModel : ViewModel() {
     val favoriteMovies: LiveData<List<Movie>> = _favoriteMovies
 
     init {
-        // Simulasi data film favorit, nantinya bisa diambil dari database
+
         _favoriteMovies.value = listOf(
             Movie("Inception", "A mind-bending thriller", R.drawable.avengers),
             Movie("The Matrix", "A hacker discovers reality", R.drawable.avengers)
